@@ -1,23 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt">
-
-  {% include head.html %}
-
-    <body>
-      <div class="container">
-
-        {% include header.html %}
-
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <main>
-            {{ content }}
-            </main>
-          </div>
-        </div>
-
-        {% include footer.html %}
-
-      </div>
-    </body>
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset='utf-8'/>
+  <meta name='description' content='Documentation website'/>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+  <link href='assets.css' rel='stylesheet' type='text/css'>
+</head>
+<body>  
+  {{ content }}
+  
+  <!--[if lt IE 9]><script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <script src='assets.js' type='text/javascript'></script>
+  <script>require('boot');</script>
+</body>
 </html>

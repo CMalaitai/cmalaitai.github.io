@@ -1,8 +1,9 @@
+~~~ yml
 # Site settings
-title: "cmalaitai"
-bye_message: "Ka kite!"
+title: "gjuniioor"
+bye_message: "Thx!"
 baseurl: "/clyell/"
-url: "https://cmalaitai.github.io"
+url: "https://gjuniioor.github.io"
 disqus: gjuniioor
 
 # Header settings
@@ -21,3 +22,4 @@ fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+~~~
